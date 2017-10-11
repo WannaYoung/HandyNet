@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBCBDEE1F8DEC0000B0C6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBDED1F8DEC0000B0C6F9 /* AppDelegate.swift */; };
+		2FBCBDF01F8DEC0000B0C6F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBDEF1F8DEC0000B0C6F9 /* ViewController.swift */; };
+		2FBCBDF31F8DEC0000B0C6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCBDF11F8DEC0000B0C6F9 /* Main.storyboard */; };
+		2FBCBDF51F8DEC0000B0C6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCBDF41F8DEC0000B0C6F9 /* Assets.xcassets */; };
+		2FBCBDF81F8DEC0000B0C6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCBDF61F8DEC0000B0C6F9 /* LaunchScreen.storyboard */; };
+		2FBCBE031F8DEC0000B0C6F9 /* HandyNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBE021F8DEC0000B0C6F9 /* HandyNetTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBCBDFF1F8DEC0000B0C6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBCBDE21F8DEC0000B0C6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBCBDE91F8DEC0000B0C6F9;
+			remoteInfo = HandyNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FBCBDEA1F8DEC0000B0C6F9 /* HandyNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBCBDED1F8DEC0000B0C6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FBCBDEF1F8DEC0000B0C6F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FBCBDF21F8DEC0000B0C6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FBCBDF41F8DEC0000B0C6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBCBDF71F8DEC0000B0C6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBCBDF91F8DEC0000B0C6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBCBDFE1F8DEC0000B0C6F9 /* HandyNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBCBE021F8DEC0000B0C6F9 /* HandyNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyNetTests.swift; sourceTree = "<group>"; };
+		2FBCBE041F8DEC0000B0C6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBCBDE71F8DEC0000B0C6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBCBDFB1F8DEC0000B0C6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBCBDE11F8DEC0000B0C6F9 = {
+			isa = PBXGroup;
+			children = (
+				2FBCBDEC1F8DEC0000B0C6F9 /* HandyNet */,
+				2FBCBE011F8DEC0000B0C6F9 /* HandyNetTests */,
+				2FBCBDEB1F8DEC0000B0C6F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBCBDEB1F8DEC0000B0C6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCBDEA1F8DEC0000B0C6F9 /* HandyNet.app */,
+				2FBCBDFE1F8DEC0000B0C6F9 /* HandyNetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBCBDEC1F8DEC0000B0C6F9 /* HandyNet */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCBDED1F8DEC0000B0C6F9 /* AppDelegate.swift */,
+				2FBCBDEF1F8DEC0000B0C6F9 /* ViewController.swift */,
+				2FBCBDF11F8DEC0000B0C6F9 /* Main.storyboard */,
+				2FBCBDF41F8DEC0000B0C6F9 /* Assets.xcassets */,
+				2FBCBDF61F8DEC0000B0C6F9 /* LaunchScreen.storyboard */,
+				2FBCBDF91F8DEC0000B0C6F9 /* Info.plist */,
+			);
+			path = HandyNet;
+			sourceTree = "<group>";
+		};
+		2FBCBE011F8DEC0000B0C6F9 /* HandyNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCBE021F8DEC0000B0C6F9 /* HandyNetTests.swift */,
+				2FBCBE041F8DEC0000B0C6F9 /* Info.plist */,
+			);
+			path = HandyNetTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBCBDE91F8DEC0000B0C6F9 /* HandyNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBCBE071F8DEC0000B0C6F9 /* Build configuration list for PBXNativeTarget "HandyNet" */;
+			buildPhases = (
+				2FBCBDE61F8DEC0000B0C6F9 /* Sources */,
+				2FBCBDE71F8DEC0000B0C6F9 /* Frameworks */,
+				2FBCBDE81F8DEC0000B0C6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyNet;
+			productName = HandyNet;
+			productReference = 2FBCBDEA1F8DEC0000B0C6F9 /* HandyNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FBCBDFD1F8DEC0000B0C6F9 /* HandyNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBCBE0A1F8DEC0000B0C6F9 /* Build configuration list for PBXNativeTarget "HandyNetTests" */;
+			buildPhases = (
+				2FBCBDFA1F8DEC0000B0C6F9 /* Sources */,
+				2FBCBDFB1F8DEC0000B0C6F9 /* Frameworks */,
+				2FBCBDFC1F8DEC0000B0C6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBCBE001F8DEC0000B0C6F9 /* PBXTargetDependency */,
+			);
+			name = HandyNetTests;
+			productName = HandyNetTests;
+			productReference = 2FBCBDFE1F8DEC0000B0C6F9 /* HandyNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBCBDE21F8DEC0000B0C6F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = yang;
+				TargetAttributes = {
+					2FBCBDE91F8DEC0000B0C6F9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					2FBCBDFD1F8DEC0000B0C6F9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FBCBDE91F8DEC0000B0C6F9;
+					};
+				};
+			};
+			buildConfigurationList = 2FBCBDE51F8DEC0000B0C6F9 /* Build configuration list for PBXProject "HandyNet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBCBDE11F8DEC0000B0C6F9;
+			productRefGroup = 2FBCBDEB1F8DEC0000B0C6F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBCBDE91F8DEC0000B0C6F9 /* HandyNet */,
+				2FBCBDFD1F8DEC0000B0C6F9 /* HandyNetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBCBDE81F8DEC0000B0C6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBCBDF81F8DEC0000B0C6F9 /* LaunchScreen.storyboard in Resources */,
+				2FBCBDF51F8DEC0000B0C6F9 /* Assets.xcassets in Resources */,
+				2FBCBDF31F8DEC0000B0C6F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBCBDFC1F8DEC0000B0C6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBCBDE61F8DEC0000B0C6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBCBDF01F8DEC0000B0C6F9 /* ViewController.swift in Sources */,
+				2FBCBDEE1F8DEC0000B0C6F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBCBDFA1F8DEC0000B0C6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBCBE031F8DEC0000B0C6F9 /* HandyNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBCBE001F8DEC0000B0C6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBCBDE91F8DEC0000B0C6F9 /* HandyNet */;
+			targetProxy = 2FBCBDFF1F8DEC0000B0C6F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FBCBDF11F8DEC0000B0C6F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBCBDF21F8DEC0000B0C6F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FBCBDF61F8DEC0000B0C6F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBCBDF71F8DEC0000B0C6F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBCBE051F8DEC0000B0C6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FBCBE061F8DEC0000B0C6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBCBE081F8DEC0000B0C6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E6TPTX2QS;
+				INFOPLIST_FILE = HandyNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunsuzaixian.HandyNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FBCBE091F8DEC0000B0C6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E6TPTX2QS;
+				INFOPLIST_FILE = HandyNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunsuzaixian.HandyNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FBCBE0B1F8DEC0000B0C6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E6TPTX2QS;
+				INFOPLIST_FILE = HandyNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunsuzaixian.HandyNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandyNet.app/HandyNet";
+			};
+			name = Debug;
+		};
+		2FBCBE0C1F8DEC0000B0C6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E6TPTX2QS;
+				INFOPLIST_FILE = HandyNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunsuzaixian.HandyNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandyNet.app/HandyNet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBCBDE51F8DEC0000B0C6F9 /* Build configuration list for PBXProject "HandyNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBCBE051F8DEC0000B0C6F9 /* Debug */,
+				2FBCBE061F8DEC0000B0C6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBCBE071F8DEC0000B0C6F9 /* Build configuration list for PBXNativeTarget "HandyNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBCBE081F8DEC0000B0C6F9 /* Debug */,
+				2FBCBE091F8DEC0000B0C6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBCBE0A1F8DEC0000B0C6F9 /* Build configuration list for PBXNativeTarget "HandyNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBCBE0B1F8DEC0000B0C6F9 /* Debug */,
+				2FBCBE0C1F8DEC0000B0C6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FBCBDE21F8DEC0000B0C6F9 /* Project object */;
+}

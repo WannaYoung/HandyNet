@@ -1,0 +1,2 @@
+github "3lvis/Networking" ~> 3.0
+github "alibaba/HandyJSON" ~> 1.8.0
