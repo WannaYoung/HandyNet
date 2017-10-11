@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F9FA6421F8DFADC008E0FF7 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FA6411F8DFADC008E0FF7 /* Weather.swift */; };
+		2F9FA6441F8DFF8F008E0FF7 /* HeWeather.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F9FA6431F8DFF8F008E0FF7 /* HeWeather.json */; };
+		2F9FA6461F8E1262008E0FF7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FA6451F8E1262008E0FF7 /* Response.swift */; };
+		2F9FA6481F8E1444008E0FF7 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FA6471F8E1444008E0FF7 /* WeatherController.swift */; };
 		2FBCBDEE1F8DEC0000B0C6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBDED1F8DEC0000B0C6F9 /* AppDelegate.swift */; };
-		2FBCBDF01F8DEC0000B0C6F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBDEF1F8DEC0000B0C6F9 /* ViewController.swift */; };
+		2FBCBDF01F8DEC0000B0C6F9 /* TestGetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBDEF1F8DEC0000B0C6F9 /* TestGetController.swift */; };
 		2FBCBDF31F8DEC0000B0C6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCBDF11F8DEC0000B0C6F9 /* Main.storyboard */; };
 		2FBCBDF51F8DEC0000B0C6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCBDF41F8DEC0000B0C6F9 /* Assets.xcassets */; };
 		2FBCBDF81F8DEC0000B0C6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCBDF61F8DEC0000B0C6F9 /* LaunchScreen.storyboard */; };
 		2FBCBE031F8DEC0000B0C6F9 /* HandyNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBE021F8DEC0000B0C6F9 /* HandyNetTests.swift */; };
+		2FBCBE111F8DED3700B0C6F9 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBCBE0F1F8DED3700B0C6F9 /* Networking.framework */; };
+		2FBCBE121F8DED4200B0C6F9 /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBCBE0E1F8DED3700B0C6F9 /* HandyJSON.framework */; };
+		2FBCBE131F8DED4200B0C6F9 /* HandyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBCBE0E1F8DED3700B0C6F9 /* HandyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FBCBE151F8DED4200B0C6F9 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBCBE0F1F8DED3700B0C6F9 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FBCBE191F8DEE1C00B0C6F9 /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBE181F8DEE1C00B0C6F9 /* NetWork.swift */; };
+		2FBCBE1D1F8DEE9A00B0C6F9 /* NetDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCBE1C1F8DEE9A00B0C6F9 /* NetDefine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +35,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2FBCBE161F8DED4300B0C6F9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2FBCBE151F8DED4200B0C6F9 /* Networking.framework in Embed Frameworks */,
+				2FBCBE131F8DED4200B0C6F9 /* HandyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2F9FA6411F8DFADC008E0FF7 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		2F9FA6431F8DFF8F008E0FF7 /* HeWeather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HeWeather.json; sourceTree = "<group>"; };
+		2F9FA6451F8E1262008E0FF7 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		2F9FA6471F8E1444008E0FF7 /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
 		2FBCBDEA1F8DEC0000B0C6F9 /* HandyNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBCBDED1F8DEC0000B0C6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FBCBDEF1F8DEC0000B0C6F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FBCBDEF1F8DEC0000B0C6F9 /* TestGetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGetController.swift; sourceTree = "<group>"; };
 		2FBCBDF21F8DEC0000B0C6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FBCBDF41F8DEC0000B0C6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FBCBDF71F8DEC0000B0C6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +65,10 @@
 		2FBCBDFE1F8DEC0000B0C6F9 /* HandyNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBCBE021F8DEC0000B0C6F9 /* HandyNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyNetTests.swift; sourceTree = "<group>"; };
 		2FBCBE041F8DEC0000B0C6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBCBE0E1F8DED3700B0C6F9 /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Carthage/Build/iOS/HandyJSON.framework; sourceTree = "<group>"; };
+		2FBCBE0F1F8DED3700B0C6F9 /* Networking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Networking.framework; path = Carthage/Build/iOS/Networking.framework; sourceTree = "<group>"; };
+		2FBCBE181F8DEE1C00B0C6F9 /* NetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
+		2FBCBE1C1F8DEE9A00B0C6F9 /* NetDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetDefine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FBCBE121F8DED4200B0C6F9 /* HandyJSON.framework in Frameworks */,
+				2FBCBE111F8DED3700B0C6F9 /* Networking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +97,7 @@
 				2FBCBDEC1F8DEC0000B0C6F9 /* HandyNet */,
 				2FBCBE011F8DEC0000B0C6F9 /* HandyNetTests */,
 				2FBCBDEB1F8DEC0000B0C6F9 /* Products */,
+				2FBCBE0D1F8DED3700B0C6F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +114,13 @@
 			isa = PBXGroup;
 			children = (
 				2FBCBDED1F8DEC0000B0C6F9 /* AppDelegate.swift */,
-				2FBCBDEF1F8DEC0000B0C6F9 /* ViewController.swift */,
+				2FBCBDEF1F8DEC0000B0C6F9 /* TestGetController.swift */,
+				2F9FA6471F8E1444008E0FF7 /* WeatherController.swift */,
+				2F9FA6411F8DFADC008E0FF7 /* Weather.swift */,
+				2F9FA6451F8E1262008E0FF7 /* Response.swift */,
+				2F9FA6431F8DFF8F008E0FF7 /* HeWeather.json */,
 				2FBCBDF11F8DEC0000B0C6F9 /* Main.storyboard */,
+				2FBCBE171F8DED9300B0C6F9 /* NetWork */,
 				2FBCBDF41F8DEC0000B0C6F9 /* Assets.xcassets */,
 				2FBCBDF61F8DEC0000B0C6F9 /* LaunchScreen.storyboard */,
 				2FBCBDF91F8DEC0000B0C6F9 /* Info.plist */,
@@ -96,6 +137,24 @@
 			path = HandyNetTests;
 			sourceTree = "<group>";
 		};
+		2FBCBE0D1F8DED3700B0C6F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCBE0E1F8DED3700B0C6F9 /* HandyJSON.framework */,
+				2FBCBE0F1F8DED3700B0C6F9 /* Networking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FBCBE171F8DED9300B0C6F9 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCBE1C1F8DEE9A00B0C6F9 /* NetDefine.swift */,
+				2FBCBE181F8DEE1C00B0C6F9 /* NetWork.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +165,7 @@
 				2FBCBDE61F8DEC0000B0C6F9 /* Sources */,
 				2FBCBDE71F8DEC0000B0C6F9 /* Frameworks */,
 				2FBCBDE81F8DEC0000B0C6F9 /* Resources */,
+				2FBCBE161F8DED4300B0C6F9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +242,7 @@
 				2FBCBDF81F8DEC0000B0C6F9 /* LaunchScreen.storyboard in Resources */,
 				2FBCBDF51F8DEC0000B0C6F9 /* Assets.xcassets in Resources */,
 				2FBCBDF31F8DEC0000B0C6F9 /* Main.storyboard in Resources */,
+				2F9FA6441F8DFF8F008E0FF7 /* HeWeather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FBCBDF01F8DEC0000B0C6F9 /* ViewController.swift in Sources */,
+				2FBCBDF01F8DEC0000B0C6F9 /* TestGetController.swift in Sources */,
 				2FBCBDEE1F8DEC0000B0C6F9 /* AppDelegate.swift in Sources */,
+				2FBCBE1D1F8DEE9A00B0C6F9 /* NetDefine.swift in Sources */,
+				2F9FA6421F8DFADC008E0FF7 /* Weather.swift in Sources */,
+				2F9FA6461F8E1262008E0FF7 /* Response.swift in Sources */,
+				2F9FA6481F8E1444008E0FF7 /* WeatherController.swift in Sources */,
+				2FBCBE191F8DEE1C00B0C6F9 /* NetWork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +421,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E6TPTX2QS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HandyNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xunsuzaixian.HandyNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,7 +441,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5E6TPTX2QS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HandyNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xunsuzaixian.HandyNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
